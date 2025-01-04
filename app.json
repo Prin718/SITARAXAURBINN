@@ -1,12 +1,12 @@
 {
-    "name": "Moon ダ ᴍᴜsɪᴄ",
+    "name": "Radhe ダ ᴍᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg",
+    "logo": "https://te.legra.ph/file/510f512d9a443d9f3bb46-380f1059a021b33584.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "MoonX",
+    "RadheX",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -29,7 +29,7 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://harryashutosh729:harryashutosh729@harry2.xykka.mongodb.net/?retryWrites=true&w=majority&appName=harry2",
+        "value": "mongodb+srv://vikky:vikky@vikky.lkjei.mongodb.net/?retryWrites=true&w=majority&appName=Vikky",
         "required": true
       },
       "OWNER_ID": {
