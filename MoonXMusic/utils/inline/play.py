@@ -95,10 +95,7 @@ def stream_markup_timer(_, chat_id, played, dur):
     return buttons
 
 
-def stream_markup(_, chat_id):
-    buttons = [
-        [
-            InlineKeyboardButton(text="◁", callback_data=f"ADMIN Resume|{chat_idef playlist_markup(_, videoid, user_id, ptype, channel, fplay):
+def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
@@ -167,37 +164,3 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
         ],
     ]
     return buttons
-d}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
-        ],
-        [
-            InlineKeyboardButton(
-
-                text="•ᴜᴘᴅᴧᴛᴇ•",
-
-                url=f"t.me/aurbinmusicchannel",
-
-            ),
-            InlineKeyboardButton(
-
-                text="•sᴜᴘᴘᴏꝛᴛ•",
-
-                url=f"t.me/+Lx7RN2oXHqBjNjE1",
-
-            ),
-        ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
-    ]
-    return buttons
-
-
-
-                text="▷",
-                callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
-            ),
-        ],
-    ]
-    return buttons
-    
